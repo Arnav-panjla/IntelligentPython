@@ -59,5 +59,5 @@ entrybox.place(x=80, y=60)
 Button(window, text="Read my mind", command=checkInput).place(x=100, y=90)
 
 window.title("Mind Reader")
-window.geometry("300x150")
+window.geometry("330x150")
 window.mainloop()
