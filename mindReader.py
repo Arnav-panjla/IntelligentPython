@@ -39,7 +39,7 @@ def update_progressbar(value):
 def click():
     global window1
     window1 = Tk()
-    window1.geometry("300x100")
+    window1.geometry("330x100")
     window1.title("Reading your mind")
     global bar
     bar = Progressbar(window1, orient=HORIZONTAL, length=250)
